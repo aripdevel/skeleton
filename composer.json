@@ -1,0 +1,19 @@
+{
+    "name": "aripdevel/skeleton",
+    "description": "Local skeleton for testing",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aripdevel",
+            "email": "aripdevel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable":true,
+    "scripts": {
+
+        "post-create-project-cmd":["@php src/generate.php","@composer dump-autoload"]
+    },
+    "require": {}
+}

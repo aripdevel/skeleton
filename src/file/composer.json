@@ -1,0 +1,22 @@
+{
+    "name": "aripdevel/{{projectname}}",
+    "description": "Local skeleton for testing",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aripdevel",
+            "email": "aripdevel@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "App\\":"app/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "scripts": {
+        "run":"@php index.php"
+    }
+}
