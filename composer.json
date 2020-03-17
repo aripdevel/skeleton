@@ -13,7 +13,10 @@
     "prefer-stable":true,
     "scripts": {
 
-        "post-create-project-cmd":["@php src/generate.php","@composer dump-autoload"]
+        "post-create-project-cmd":["@php src/generate.php","@composer install","@composer dump-autoload"]
     },
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "psy/psysh": "^0.10.0@dev"
+    }
 }
