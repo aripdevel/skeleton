@@ -23,7 +23,7 @@
     "require": {},
     "require-dev": {
         "phpunit/phpunit":"^0.9*",
-        "psy/psysh": "^0.10.0*"
+        "psy/psysh": "^0.10*"
     },
     "scripts": {
         "run":"@php index.php"
