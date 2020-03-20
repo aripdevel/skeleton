@@ -15,8 +15,5 @@
 
         "post-create-project-cmd":["@php src/generate.php","@composer install","@composer dump-autoload"]
     },
-    "require": {},
-    "require-dev": {
-        "psy/psysh": "^0.10.0@dev"
-    }
+    "require": {}
 }
