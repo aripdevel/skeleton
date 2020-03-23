@@ -6,7 +6,8 @@ $replacer=basename(realpath("."));
 
 /** Create directory for namespace App */
 
-(is_dir($project->path) ? mkdir('app') : exit()); 
+(is_dir($project->path) ? mkdir('app') : exit());
+(is_dir($project->path) ? mkdir('tests') : exit()); 
 
 foreach( glob(__DIR__.DIRECTORY_SEPARATOR."file/*.*") as $file){
 
